@@ -1,0 +1,36 @@
+## Operating System
+
+.DS_Store*
+__pycache__
+.qmake.stash
+*.pro.user.*
+*.user
+*.pyc
+*.pfd
+*.o
+*.obj
+*.exp
+*.lib
+*.so
+*.dylib
+*.pyd
+*.pyo
+*~
+crash.log
+*.autosave
+.pytest_cache
+htmlcov
+.coverage*
+.#*
+.xcuserstate
+Makefile*
+*.vcxproj
+*.filters
+*.sln
+.venv
+.direnv
+.envrc
+.VSCodeCounter
+
+# I think this is the local settings file.
+.vscode

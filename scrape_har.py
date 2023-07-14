@@ -10,7 +10,6 @@ Scrape an HAR export from Safari Dev Tools
 - parse here to scrape all tweet replies
 """
 
-import sys
 import os.path
 import json
 import logging

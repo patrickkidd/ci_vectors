@@ -1,9 +1,10 @@
+import os
 import tweepy
 
-consumer_key = "gZ63HdXjanJEKx3CvILfhQzQ5"
-consumer_secret = "LN7MhwTMqnTb2Mn3kUAZAcJvql6hLUw9c0yD8JxJO3X2Rp0Ne2"
-access_token = "26843310-CqgjMKrQ2B4sNybS6E0jcrnN6aSliohLrbha49nrM"
-access_token_secret = "D4rS4X47XAmLJwQ8QlemErrGaiNqT6O9QTToZingzvQra"
+consumer_key = os.getenv("TWITTER_API_KEY")
+consumer_secret = os.getenv("TWITTER_API_SECRET")
+access_token = os.getenv("TWITTER_ACCESS_TOKEN")
+access_token_secret = os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
 
 def get_replies_1(tweet_id):
     # Authenticate with Twitter

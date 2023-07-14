@@ -37,13 +37,24 @@ opinions to be capped at about 175.
 
 ChatGPT thread: https://chat.openai.com/share/78b0cde6-6374-4ef3-bb52-20f860ee8e0f
 
-_Factor Analysis_: `test_factors.py` uses `sklearn` and `nltk` to generate a
+_Factor Analysis_
+
+`test_factors.py` uses `sklearn` and `nltk` to generate a
 factor analysis of terms. This script has not been tested yet. The idea here is
 that instead of a single "average" of the opinons, that opions might cluster
 together with different weights. That information might be useful for a person
 to aggregate the factors subjectively in their head to draw a single conclusion.
 
 ChatGPT Thread: https://chat.openai.com/share/7e9ba27d-6138-4d11-a6ee-100e2c10d3a3
+
+_Other Ideas_: 
+
+Here are some other attempts at getting starting points from ChatGPT:
+
+- Emotion Vectors 1: https://chat.openai.com/share/99691cdb-9d83-4a8b-b2d5-7910a6d70f42
+- Emotion Vectors 2: https://chat.openai.com/share/009f720d-2da4-4fe2-90fc-cea21cb9986d
+- Straight CI: https://chat.openai.com/share/f7564a4f-e287-4518-80e2-372bd0910fdc
+
 
 ## Theoretical Background
 

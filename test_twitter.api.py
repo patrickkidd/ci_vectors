@@ -1,7 +1,7 @@
 import requests
 import os
 
-bearer_token = "AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
+bearer_token = ""
 
 def get_replies(tweet_id):
     headers = {

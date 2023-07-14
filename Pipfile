@@ -11,6 +11,7 @@ spacy = "*"
 bs4 = "*"
 requests = "*"
 tweepy = "*"
+nltk = "*"
 
 [dev-packages]
 

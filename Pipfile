@@ -12,6 +12,9 @@ bs4 = "*"
 requests = "*"
 tweepy = "*"
 nltk = "*"
+pandas = "*"
+sklearn = "*"
+scikit-learn = "*"
 
 [dev-packages]
 

@@ -1,4 +1,6 @@
 import re
+import json
+
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -6,7 +8,8 @@ from sklearn.decomposition import PCA
 from nltk.corpus import stopwords
 
 # Step 1: Collect the replies
-replies = [...]  # List of reply texts
+replies = json.load(open('har/musk/1-twitter.com.har.replies.json', 'r'))
+
 
 # Step 2: Clean the data
 cleaned_replies = []
@@ -27,5 +30,5 @@ pca = PCA(n_components=2)
 factors = pca.fit_transform(reply_matrix.toarray())
 
 # Step 5: Interpret the factors
-factor_loadings = pd.DataFrame(pca.components_.T, index=vectorizer.get_feature_names(), columns=['Factor 1', 'Factor 2'])
+factor_loadings = pd.DataFrame(pca.components_.T, index=vectorizer.get_feature_names_out(), columns=['Factor 1', 'Factor 2'])
 print(factor_loadings)
